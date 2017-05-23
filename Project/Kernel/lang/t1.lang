@@ -1,0 +1,77 @@
+int 
+
+sqr(int arg)
+
+{
+
+	return arg * arg;
+
+}
+
+
+
+int
+
+luck()
+
+{
+
+	int i1,i2,i3,i4,i5,i6,count;
+	
+	count = 0;
+	
+	for (i1=0; i1 < 10; i1++) {
+
+	  for (i2=0; i2 < 10; i2++) {
+
+	    for (i3=0; i3 < 10; i3++) {
+
+	      for (i4=0; i4 < 10; i4++) {
+
+	        for (i5=0; i5 < 10; i5++) {
+
+		  for (i6=0; i6 < 10; i6++) {
+
+		    if (i1+i2+i3 == i4+i5+i6) {
+
+		      count++;
+		    
+		    }
+ 
+		  }
+
+		}
+
+	      }
+
+	    }
+
+	  }
+
+	}
+
+	return count;
+
+}
+
+
+
+
+int main()
+
+{
+
+	int var;
+	
+	input var;
+
+	int var2;
+
+	int count;
+        var2 = sqr(var);
+
+	output "var=", var", "\n";
+	count = luck();
+	
+	output "luck=", luck, "\n";
+}

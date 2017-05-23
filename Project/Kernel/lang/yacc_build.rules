@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Yacc file"
+	Version="8,00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="Yacc build"
+			DisplayName="YACC"
+			CommandLine="bison -v -d --output=$(InputName).c $(InputName).y"
+			Outputs="$(InputName).c"
+			FileExtensions="*.y"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>

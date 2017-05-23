@@ -1,0 +1,17 @@
+Rational <>       - 100%
+degree            - 100% (100% если будет реализовано возведение в дробную степень и быстрое возведение в целую)
+toStringWithPeriod - 80% 
+toString          - 50%
+simplify          - 0%
+expand            - 0%
+factor            - 0%
+Tree(string)      - 2% (fromString)
+tryEvaluate(tree) - 0%
+canonify          - 0%  ("x+x^3*3 - 2x^2") -> ("3x^3 - 2x^2 + x")
+sysvars			  - 0%
+RPNmode			  - 0%
+calculate         - 0% (x = 5 -> в x заноситс€ 5) ???
+
+Rational.factor
+Polynom.evaluate
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Lex rule"
+	Version="8,00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="Flex"
+			DisplayName="Flex rule"
+			CommandLine="flex -o$(InputName).c $(InputName).l"
+			Outputs="$(InputName).c"
+			FileExtensions="*.l"
+			SupportsFileBatching="true"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>
